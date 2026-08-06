@@ -168,26 +168,6 @@ const teamMembers: Member[] = [
     ],
   },
   {
-    name: { zh: "阚博文（Bowen Kan）", en: "Bowen Kan" },
-    role: { zh: "博士生", en: "Ph.D. Student" },
-    photo: `${import.meta.env.BASE_URL}images/team/kanbowen.png`,
-    joinYear: 2023,
-    researchDirection: {
-      zh: "高性能计算；AI4Science；计算机体系结构",
-      en: "High-performance computing; AI for Science; computer architecture",
-    },
-    bio: {
-      zh: "博士生，聚焦高性能计算、AI4Science与计算机体系结构，开展基于大模型的大规模并行二次量子化等研究。",
-      en: "Ph.D. student focusing on high-performance computing, AI for Science and computer architecture, working on large-scale parallel second quantization.",
-    },
-    publications: [
-      { year: "2025", title: "Bridging the Gap between Transformer-Based Neural Networks and Tensor Networks for Quantum Chemistry", venue: "JCTC", link: "https://doi.org/10.1021/acs.jctc.4c01703" },
-      { year: "2025", title: "NNQS-SCI: Tackling Trillion-Dimensional Hilbert Space with Adaptive Neural Network Quantum States", venue: "SC'25", link: "https://doi.org/10.1145/3712285.3759800" },
-      { year: "2025", title: "Accelerating Many-Body Quantum Chemistry via Generative Transformer-Enhanced Configuration Interaction", venue: "JCTC", link: "https://doi.org/10.1021/acs.jctc.5c01429" },
-      { year: "2026", title: "A Fully GPU-Accelerated Framework for High-Performance Configuration Interaction Selection with Neural Network Quantum States", venue: "HPDC'26", link: "https://doi.org/10.1145/3806645.3807583" },
-    ],
-  },
-  {
     name: { zh: "赵博文（Bowen Zhao）", en: "Bowen Zhao" },
     role: { zh: "博士生", en: "Ph.D. Student" },
     photo: `${import.meta.env.BASE_URL}images/team/zhaobowen.png`,
@@ -220,6 +200,26 @@ const teamMembers: Member[] = [
       zh: "博士研究生，研究方向为量子机器学习与人工智能辅助量子计算，探索基于神经网络量子态、Transformer及量子采样的多体波函数表示与优化方法，求解复杂电子结构问题。",
       en: "Ph.D. student researching quantum machine learning and AI-assisted quantum computing, exploring neural-network representations and optimization of many-body wavefunctions for complex electronic structure problems.",
     },
+  },
+  {
+    name: { zh: "阚博文（Bowen Kan）", en: "Bowen Kan" },
+    role: { zh: "博士生", en: "Ph.D. Student" },
+    photo: `${import.meta.env.BASE_URL}images/team/kanbowen.png`,
+    joinYear: 2023,
+    researchDirection: {
+      zh: "高性能计算；AI4Science；计算机体系结构",
+      en: "High-performance computing; AI for Science; computer architecture",
+    },
+    bio: {
+      zh: "博士生，聚焦高性能计算、AI4Science与计算机体系结构，开展基于大模型的大规模并行二次量子化等研究。",
+      en: "Ph.D. student focusing on high-performance computing, AI for Science and computer architecture, working on large-scale parallel second quantization.",
+    },
+    publications: [
+      { year: "2025", title: "Bridging the Gap between Transformer-Based Neural Networks and Tensor Networks for Quantum Chemistry", venue: "JCTC", link: "https://doi.org/10.1021/acs.jctc.4c01703" },
+      { year: "2025", title: "NNQS-SCI: Tackling Trillion-Dimensional Hilbert Space with Adaptive Neural Network Quantum States", venue: "SC'25", link: "https://doi.org/10.1145/3712285.3759800" },
+      { year: "2025", title: "Accelerating Many-Body Quantum Chemistry via Generative Transformer-Enhanced Configuration Interaction", venue: "JCTC", link: "https://doi.org/10.1021/acs.jctc.5c01429" },
+      { year: "2026", title: "A Fully GPU-Accelerated Framework for High-Performance Configuration Interaction Selection with Neural Network Quantum States", venue: "HPDC'26", link: "https://doi.org/10.1145/3806645.3807583" },
+    ],
   },
   {
     name: { zh: "黄子恒（Ziheng Huang）", en: "Ziheng Huang" },
