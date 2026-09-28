@@ -248,6 +248,21 @@ const teamMembers: Member[] = [
     joinYear: 2026,
     email: "wangzy1810@gmail.com",
   },
+  {
+    name: { zh: "皮宇恒（Yuheng Pi）", en: "Yuheng Pi" },
+    role: { zh: "硕士生", en: "Master's Student" },
+    photo: `${import.meta.env.BASE_URL}images/team/piyuheng.png`,
+    joinYear: 2026,
+    email: "piyuheng@mail.ustc.edu.cn",
+    researchDirection: {
+      zh: "电子结构；神经网络量子态",
+      en: "Electronic structure; neural-network quantum states",
+    },
+    bio: {
+      zh: "主要从事神经网络量子态（NNQS）相关研究，聚焦强相对论效应对体系性质的影响，关注稀土与锕系金属的电子结构性质及相关计算方法，探索将Dirac四分量计算与神经网络量子态相结合，用于研究过渡金属体系。",
+      en: "Working on neural-network quantum states (NNQS), focusing on how strong relativistic effects influence system properties. Research interests include the electronic structure of rare-earth and actinide metals and related computational methods, exploring the combination of four-component Dirac calculations with NNQS to study transition-metal systems.",
+    },
+  },
 ];
 
 export default function Team() {
