@@ -73,7 +73,7 @@ const newsList: {
     id: 6,
     title: {
       zh: "商红慧团队成果入围2024年戈登·贝尔奖",
-      en: "The Shang Honghui team's work is a finalist for the 2024 Gordon Bell Prize",
+      en: "The Honghui Shang team's work is a finalist for the 2024 Gordon Bell Prize",
     },
     date: "2024-12-26",
     category: { zh: "荣誉奖项", en: "Awards" },
@@ -109,12 +109,12 @@ export default function News() {
         title={
           lang === "zh"
             ? "新闻动态 - 中国科学技术大学 商红慧课题组"
-            : "News - USTC · Shang Honghui Group"
+            : "News - USTC · Honghui Shang Group"
         }
         description={
           lang === "zh"
             ? "中国科学技术大学商红慧课题组最新科研进展、学术交流和团队动态"
-            : "Latest research progress, academic exchanges, and group news of the Shang Honghui Group at USTC"
+            : "Latest research progress, academic exchanges, and group news of the Honghui Shang Group at USTC"
         }
         keywords={
           lang === "zh"

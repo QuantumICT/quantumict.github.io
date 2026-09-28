@@ -12,8 +12,8 @@ const professor = {
   photo:
     "https://material-image.wanwang.xin/1863084887190987/public/6be8440e-260f-480d-98e5-2f9825512f8f.jpg",
   bio: {
-    zh: "商红慧，中国科学技术大学特任教授。主要研究兴趣包括结合量子算法、人工智能与高性能计算，发展第一性原理高精度算法和程序，并应用程序进行电子结构的理论模拟，在原子尺度上揭示物质的物理性质和演化行为，发表论文40余篇。同时也包含高性能并行算法设计与优化；智能超算（HPC+AI）；科学计算方法等等。带领团队在国产E级超算上成功实现了千万核可扩展的全电子全势第一性原理计算模拟，入围2021年度戈登•贝尔奖。主持国家自然科学基金委员会优秀青年基金项目。",
-    en: "Honghui Shang is a professor at the University of Science and Technology of China (USTC). Her research interests include combining quantum algorithms, artificial intelligence, and high-performance computing to develop high-accuracy first-principles algorithms and programs, and applying them to theoretical simulations of electronic structure, revealing the physical properties and evolution of matter at the atomic scale. She has published more than 40 papers. Her work also covers high-performance parallel algorithm design and optimization, intelligent supercomputing (HPC+AI), and scientific computing methods. She led the team to successfully achieve ten-million-core scalable all-electron full-potential first-principles calculations on domestic exascale supercomputers and was a finalist for the 2021 Gordon Bell Prize. She leads a National Natural Science Foundation of China (NSFC) Excellent Young Scientists Fund project.",
+    zh: "商红慧，中国科学技术大学特任教授。主要研究兴趣包括结合量子算法、人工智能与高性能计算，发展第一性原理高精度算法和程序，并应用程序进行电子结构的理论模拟，在原子尺度上揭示物质的物理性质和演化行为，发表论文60余篇。同时也包含高性能并行算法设计与优化；智能超算（HPC+AI）；科学计算方法等等。带领团队在国产E级超算上成功实现了千万核可扩展的全电子全势第一性原理计算模拟，入围2021、2024年度戈登•贝尔奖。主持国家自然科学基金委员会优秀青年基金项目。",
+    en: "Honghui Shang is a professor at the University of Science and Technology of China (USTC). Her research interests include combining quantum algorithms, artificial intelligence, and high-performance computing to develop high-accuracy first-principles algorithms and programs, and applying them to theoretical simulations of electronic structure, revealing the physical properties and evolution of matter at the atomic scale. She has published more than 60 papers. Her work also covers high-performance parallel algorithm design and optimization, intelligent supercomputing (HPC+AI), and scientific computing methods. She led the team to successfully achieve ten-million-core scalable all-electron full-potential first-principles calculations on domestic exascale supercomputers and was a finalist for the Gordon Bell Prize in 2021 and 2024. She leads a National Natural Science Foundation of China (NSFC) Excellent Young Scientists Fund project.",
   },
   researchInterests: {
     zh: [
@@ -59,7 +59,7 @@ type Member = {
   name: BiText;
   role: BiText;
   photo: string;
-  joinYear: number;
+  joinYear?: number;
   researchDirection?: BiText;
   email?: string;
   bio?: BiText;
@@ -227,11 +227,39 @@ const teamMembers: Member[] = [
     photo: `${import.meta.env.BASE_URL}images/team/huangziheng.jpg`,
     joinYear: 2025,
   },
+  {
+    name: { zh: "边一鸣（Yiming Bian）", en: "Yiming Bian" },
+    role: { zh: "直博生", en: "Direct Ph.D. Student" },
+    photo: `${import.meta.env.BASE_URL}images/team/bianyiming.jpg`,
+    joinYear: 2026,
+    email: "yim_bian@163.com",
+  },
+  {
+    name: { zh: "徐庭玉（Tingyu Xu）", en: "Tingyu Xu" },
+    role: { zh: "硕士生", en: "Master's Student" },
+    photo: `${import.meta.env.BASE_URL}images/team/xutingyu.png`,
+    joinYear: 2026,
+    email: "xutingyu@mail.ustc.edu.cn",
+  },
+  {
+    name: { zh: "王之源（Zhiyuan Wang）", en: "Zhiyuan Wang" },
+    role: { zh: "", en: "" },
+    photo: `${import.meta.env.BASE_URL}images/team/wangzhiyuan.jpg`,
+    joinYear: 2026,
+    email: "wangzy1810@gmail.com",
+  },
 ];
 
 export default function Team() {
   const { lang } = useLanguage();
   const s = (obj: BiText): string => obj[lang];
+  const memberDetails = (member: Member): string =>
+    [
+      s(member.role),
+      member.joinYear
+        ? lang === "zh" ? `${member.joinYear} 年入组` : `Joined ${member.joinYear}`
+        : "",
+    ].filter(Boolean).join(" · ");
   const [active, setActive] = useState<Member | null>(null);
   const close = () => setActive(null);
 
@@ -241,12 +269,12 @@ export default function Team() {
         title={
           lang === "zh"
             ? "团队成员 - 中国科学技术大学 商红慧课题组"
-            : "Team - USTC · Shang Honghui Group"
+            : "Team - USTC · Honghui Shang Group"
         }
         description={
           lang === "zh"
             ? "中国科学技术大学商红慧课题组成员介绍，包括导师和研究人员"
-            : "Members of the Shang Honghui Group at USTC, including the advisor and researchers"
+            : "Members of the Honghui Shang Group at USTC, including the advisor and researchers"
         }
         keywords={
           lang === "zh"
@@ -347,7 +375,7 @@ export default function Team() {
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5">
             {[...teamMembers]
-              .sort((a, b) => a.joinYear - b.joinYear)
+              .sort((a, b) => (a.joinYear ?? Infinity) - (b.joinYear ?? Infinity))
               .map((member, index) => (
               <button
                 key={index}
@@ -367,12 +395,11 @@ export default function Team() {
                   <h3 className="text-sm font-semibold text-ink mb-0.5 truncate">
                     {s(member.name)}
                   </h3>
-                  <p className="text-primary text-xs mb-1">
-                    {s(member.role)}
-                    {member.joinYear
-                      ? ` · ${lang === "zh" ? `${member.joinYear} 年入组` : `Joined ${member.joinYear}`}`
-                      : ""}
-                  </p>
+                  {memberDetails(member) && (
+                    <p className="text-primary text-xs mb-1">
+                      {memberDetails(member)}
+                    </p>
+                  )}
                   {member.researchDirection && (
                     <p className="text-gray-500 text-xs leading-snug line-clamp-2">
                       {s(member.researchDirection)}
@@ -422,12 +449,11 @@ export default function Team() {
               </div>
               <div className="flex-1 p-6">
                 <h3 className="text-xl font-bold text-ink mb-1">{s(active.name)}</h3>
-                <p className="text-primary font-medium mb-1">
-                  {s(active.role)}
-                  {active.joinYear
-                    ? ` · ${lang === "zh" ? `${active.joinYear} 年入组` : `Joined ${active.joinYear}`}`
-                    : ""}
-                </p>
+                {memberDetails(active) && (
+                  <p className="text-primary font-medium mb-1">
+                    {memberDetails(active)}
+                  </p>
+                )}
                 {active.researchDirection && (
                   <p className="text-gray-600 text-sm mb-3 leading-relaxed">
                     <span className="font-semibold text-ink">

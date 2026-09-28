@@ -41,12 +41,12 @@ export default function Contact() {
         title={
           lang === "zh"
             ? "联系我们 - 中国科学技术大学 商红慧课题组"
-            : "Contact - USTC · Shang Honghui Group"
+            : "Contact - USTC · Honghui Shang Group"
         }
         description={
           lang === "zh"
             ? "联系中国科学技术大学商红慧课题组，获取招生信息和学术合作机会"
-            : "Contact the Shang Honghui Group at USTC for recruitment information and academic collaboration opportunities"
+            : "Contact the Honghui Shang Group at USTC for recruitment information and academic collaboration opportunities"
         }
         keywords={
           lang === "zh"

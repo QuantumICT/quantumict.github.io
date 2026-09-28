@@ -5,7 +5,7 @@ export function Footer() {
   const { lang } = useLanguage();
 
   const groupName =
-    lang === "zh" ? "中国科学技术大学 商红慧课题组" : "USTC · Shang Honghui Group";
+    lang === "zh" ? "中国科学技术大学 商红慧课题组" : "USTC · Honghui Shang Group";
   const quickLinks = lang === "zh" ? "快速链接" : "Quick Links";
   const contact = lang === "zh" ? "联系方式" : "Contact";
   const email = lang === "zh" ? "邮箱" : "Email";

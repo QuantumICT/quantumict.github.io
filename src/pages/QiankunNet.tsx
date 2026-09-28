@@ -179,7 +179,7 @@ export default function QiankunNet() {
         title={
           lang === "zh"
             ? "乾坤网络 - 中国科学技术大学 商红慧课题组"
-            : "QiankunNet - USTC · Shang Honghui Group"
+            : "QiankunNet - USTC · Honghui Shang Group"
         }
         description={
           lang === "zh"

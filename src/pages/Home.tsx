@@ -74,7 +74,7 @@ const latestNews: { title: BiText; date: string; summary: BiText; link: string }
   {
     title: {
       zh: "Nature Communications | 商红慧团队创建乾坤网络精确求解多电子薛定谔方程",
-      en: "Nature Communications | Shang Honghui team creates QiankunNet to accurately solve the many-electron Schrödinger equation",
+      en: "Nature Communications | Honghui Shang team creates QiankunNet to accurately solve the many-electron Schrödinger equation",
     },
     date: "2025-10-10",
     summary: {
@@ -131,12 +131,12 @@ export default function Home() {
         title={
           lang === "zh"
             ? "中国科学技术大学 商红慧课题组 - 量子算法与高性能计算研究"
-            : "USTC · Shang Honghui Group - Quantum Algorithms & High-Performance Computing"
+            : "USTC · Honghui Shang Group - Quantum Algorithms & High-Performance Computing"
         }
         description={
           lang === "zh"
             ? "中国科学技术大学商红慧课题组专注于量子算法、人工智能与高性能计算的前沿研究，发展第一性原理高精度算法和程序"
-            : "The Shang Honghui Group at USTC focuses on frontier research in quantum algorithms, AI, and high-performance computing, developing high-accuracy first-principles algorithms and programs."
+            : "The Honghui Shang Group at USTC focuses on frontier research in quantum algorithms, AI, and high-performance computing, developing high-accuracy first-principles algorithms and programs."
         }
         keywords={
           lang === "zh"
@@ -156,7 +156,7 @@ export default function Home() {
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-3xl md:text-5xl font-bold mb-4">
-            {lang === "zh" ? "商红慧课题组" : "Shang Honghui Group"}
+            {lang === "zh" ? "商红慧课题组" : "Honghui Shang Group"}
           </h1>
           <p className="text-xl md:text-2xl mb-6 opacity-90">
             {lang === "zh"
@@ -313,8 +313,8 @@ export default function Home() {
               </h2>
               <p className="text-gray-700 mb-4 leading-relaxed">
                 {lang === "zh"
-                  ? "商红慧教授带领的课题组致力于量子算法、人工智能与高性能计算的交叉研究。团队拥有多名研究员、博士后和研究生，在国内外顶级期刊发表多篇高水平论文。"
-                  : "Led by Prof. Honghui Shang, the group conducts interdisciplinary research in quantum algorithms, artificial intelligence, and high-performance computing. The team includes researchers, postdocs, and graduate students, and has published numerous high-quality papers in top journals."}
+                  ? "商红慧教授带领的课题组致力于量子算法、人工智能与高性能计算的交叉研究。团队拥有多名研究员、博士后和研究生，在国内外顶级期刊发表多篇高水平论文，研究成果入围2021、2024年度戈登·贝尔奖。"
+                  : "Led by Prof. Honghui Shang, the group conducts interdisciplinary research in quantum algorithms, artificial intelligence, and high-performance computing. The team includes researchers, postdocs, and graduate students, and has published numerous high-quality papers in top journals. The group's research was selected as a finalist for the Gordon Bell Prize in 2021 and 2024."}
               </p>
               <div className="flex items-center gap-6 mb-6">
                 <div className="text-center">
@@ -324,7 +324,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-primary">40+</div>
+                  <div className="text-2xl font-bold text-primary">60+</div>
                   <div className="text-xs text-gray-600">
                     {lang === "zh" ? "发表论文" : "Publications"}
                   </div>

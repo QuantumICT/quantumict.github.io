@@ -33,37 +33,37 @@ const researchTopics: ResearchTopic[] = [
     references: [
       {
         citation:
-          "Shang, H.*, Carbogno, C., Rinke, P. & Scheffler, M. Lattice dynamics calculations based on density-functional perturbation theory in real space. Comput. Phys. Commun. 215, 26–46 (2017).",
+          "H. Shang*, C. Carbogno, P. Rinke & M. Scheffler. Lattice dynamics calculations based on density-functional perturbation theory in real space. Comput. Phys. Commun. 215, 26–46 (2017).",
         url: "https://doi.org/10.1016/j.cpc.2017.01.017",
       },
       {
         citation:
-          "Shang, H., Raimbault, N., Rinke, P., Scheffler, M., Rossi, M. & Carbogno, C. All-electron, real-space perturbation theory for homogeneous electric fields: theory, implementation, and application within DFT. New J. Phys. 20, 073040 (2018).",
+          "H. Shang, N. Raimbault, P. Rinke, M. Scheffler, M. Rossi & C. Carbogno. All-electron, real-space perturbation theory for homogeneous electric fields: theory, implementation, and application within DFT. New J. Phys. 20, 073040 (2018).",
         url: "https://doi.org/10.1088/1367-2630/aace6d",
       },
       {
         citation:
-          "Shang, H., Argondizzo, A., Tan, S., Zhao, J., Rinke, P., Carbogno, C., Scheffler, M. & Petek, H. Electron-phonon coupling in d-electron solids: A temperature-dependent study of rutile TiO2 by first-principles theory and two-photon photoemission. Phys. Rev. Research 1, 033153 (2019).",
+          "H. Shang, A. Argondizzo, S. Tan, J. Zhao, P. Rinke, C. Carbogno, M. Scheffler & H. Petek. Electron-phonon coupling in d-electron solids: A temperature-dependent study of rutile TiO2 by first-principles theory and two-photon photoemission. Phys. Rev. Research 1, 033153 (2019).",
         url: "https://doi.org/10.1103/PhysRevResearch.1.033153",
       },
       {
         citation:
-          "Shang, H., Duan, X., Li, F., Zhang, L., Xu, Z., Liu, K., Luo, H., Ji, Y., Zhao, W., Xue, W., Chen, L. & Zhang, Y. Many-core acceleration of the first-principles all-electron quantum perturbation calculations. Comput. Phys. Commun. 267, 108045 (2021).",
+          "H. Shang, X. Duan, F. Li, L. Zhang, Z. Xu, K. Liu, H. Luo, Y. Ji, W. Zhao, W. Xue, L. Chen & Y. Zhang. Many-core acceleration of the first-principles all-electron quantum perturbation calculations. Comput. Phys. Commun. 267, 108045 (2021).",
         url: "https://doi.org/10.1016/j.cpc.2021.108045",
       },
       {
         citation:
-          "Shang, H., Li, F., Zhang, Y., Zhang, L., Fu, Y., Gao, Y., Wu, Y., Duan, X., Lin, R., Liu, X., Liu, Y. & Chen, D. Extreme-scale ab initio quantum raman spectra simulations on the leadership HPC system in China. In Proceedings of SC '21, 1–13 (ACM, New York, 2021). (Gordon Bell Prize Finalist)",
+          "H. Shang, F. Li, Y. Zhang, L. Zhang, Y. Fu, Y. Gao, Y. Wu, X. Duan, R. Lin, X. Liu, Y. Liu & D. Chen. Extreme-scale ab initio quantum raman spectra simulations on the leadership HPC system in China. In Proceedings of SC '21, 1–13 (ACM, New York, 2021). (Gordon Bell Prize Finalist)",
         url: "https://doi.org/10.1145/3458817.3476145",
       },
       {
         citation:
-          "Wu, Z., Wu, Y., Liu, Y.*, Shang, H.*, Gao, Y., Zhang, Z., Zhang, Y., Long, Y., Feng, X. & Cui, H. Portable and scalable all-electron quantum perturbation simulations on exascale supercomputers. In Proceedings of SC '23 (ACM, New York, 2023).",
+          "Z. Wu, Y. Wu, Y. Liu*, H. Shang*, Y. Gao, Z. Zhang, Y. Zhang, Y. Long, X. Feng & H. Cui. Portable and scalable all-electron quantum perturbation simulations on exascale supercomputers. In Proceedings of SC '23 (ACM, New York, 2023).",
         url: "https://doi.org/10.1145/3581784.3607054",
       },
       {
         citation:
-          "Shang, H.*, Liu, Y.*, Wu, Z., Chen, Z., Liu, J., Shao, M., Li, Y., Kan, B., Cui, H., Feng, X., Zhang, Y., Truhlar, D. G., An, H., He, X.* & Yang, J.* Pushing the limit of quantum mechanical simulation to the raman spectra of a biological system with 100 million atoms. In Proceedings of SC '24 (IEEE Press, 2024). (Gordon Bell Prize Finalist)",
+          "H. Shang*, Y. Liu*, Z. Wu, Z. Chen, J. Liu, M. Shao, Y. Li, B. Kan, H. Cui, X. Feng, Y. Zhang, D. G. Truhlar, H. An, X. He* & J. Yang*. Pushing the limit of quantum mechanical simulation to the raman spectra of a biological system with 100 million atoms. In Proceedings of SC '24 (IEEE Press, 2024). (Gordon Bell Prize Finalist)",
         url: "https://doi.org/10.1109/SC54273.2024.00097",
       },
     ],
@@ -80,37 +80,37 @@ const researchTopics: ResearchTopic[] = [
     references: [
       {
         citation:
-          "Shang, H.*, Fan, Y., Guo, C.*, Zhou, W., Shen, L., Xu, Z., Liu, J.*, Ma, H., Lin, R., Li, F., Zhang, Y., Yang, Y., Wang, Z., & Li, Z. Large-Scale Simulation of Quantum Computational Chemistry on a New Sunway Supercomputer. In Proceedings of SC '22 (IEEE, Dallas, 2022).",
+          "H. Shang*, Y. Fan, C. Guo*, W. Zhou, L. Shen, Z. Xu, J. Liu*, H. Ma, R. Lin, F. Li, Y. Zhang, Y. Yang, Z. Wang, & Z. Li. Large-Scale Simulation of Quantum Computational Chemistry on a New Sunway Supercomputer. In Proceedings of SC '22 (IEEE, Dallas, 2022).",
         url: "https://doi.org/10.1109/SC41404.2022.00008",
       },
       {
         citation:
-          "Shang, H.*, Fan, Y., Shen, L., Guo, C.*, Liu, J.*, Duan, X., Li, F., & Li, Z. Towards practical and massively parallel quantum computing emulation for quantum chemistry. npj Quantum Information 9, 33 (2023).",
+          "H. Shang*, Y. Fan, L. Shen, C. Guo*, J. Liu*, X. Duan, F. Li, & Z. Li. Towards practical and massively parallel quantum computing emulation for quantum chemistry. npj Quantum Information 9, 33 (2023).",
         url: "https://doi.org/10.1038/s41534-023-00696-7",
       },
       {
         citation:
-          "Ma, H., Liu, J.*, Shang, H.*, Fan, Y., Li, Z., & Yang, J.* Multiscale quantum algorithms for quantum chemistry. Chem. Sci. 14, 3190–3205 (2023).",
+          "H. Ma, J. Liu*, H. Shang*, Y. Fan, Z. Li, & J. Yang*. Multiscale quantum algorithms for quantum chemistry. Chem. Sci. 14, 3190–3205 (2023).",
         url: "https://doi.org/10.1039/d2sc06875c",
       },
       {
         citation:
-          "Guo, C., Fan, Y., Xu, Z., & Shang, H.* Differentiable matrix product states for simulating variational quantum computational chemistry. Quantum 7, 1205 (2023).",
+          "C. Guo, Y. Fan, Z. Xu, & H. Shang*. Differentiable matrix product states for simulating variational quantum computational chemistry. Quantum 7, 1205 (2023).",
         url: "https://doi.org/10.22331/q-2023-11-28-1205",
       },
       {
         citation:
-          "Shang, H., Wang, F., Fan, Y., Ma, H., Liu, Q., Guo, C., Zhou, P., Chen, Q., Xiao, Q., Zheng, T., Li, B., Zuo, F., Liu, J.*, Li, Z., & Yang, J. Large-scale quantum emulating simulations of biomolecules: A pilot exploration of parallel quantum computing. Science Bulletin 69, 876–880 (2024).",
+          "H. Shang, F. Wang, Y. Fan, H. Ma, Q. Liu, C. Guo, P. Zhou, Q. Chen, Q. Xiao, T. Zheng, B. Li, F. Zuo, J. Liu*, Z. Li, & J. Yang. Large-scale quantum emulating simulations of biomolecules: A pilot exploration of parallel quantum computing. Science Bulletin 69, 876–880 (2024).",
         url: "https://doi.org/10.1016/j.scib.2024.01.022",
       },
       {
         citation:
-          "Shang, H., Fan, Y., Liu, J., & Yang, J.* 生物大分子的量子计算模拟:并行量子计算的初步探索. 科学通报 69, 1967–1969 (2024).",
+          "H. Shang, Y. Fan, J. Liu, & J. Yang*. 生物大分子的量子计算模拟:并行量子计算的初步探索. 科学通报 69, 1967–1969 (2024).",
         url: "https://doi.org/10.1360/TB-2024-0376",
       },
       {
         citation:
-          "Xu, Z., Zeng, X., Shang, H.*, Zhang, Y., Fan, Y., & Guo, C.* Scalable and Differentiable Simulator for Quantum Computational Chemistry. In Proceedings of IPDPS '24 (IEEE, San Francisco, 2024).",
+          "Z. Xu, X. Zeng, H. Shang*, Y. Zhang, Y. Fan, & C. Guo*. Scalable and Differentiable Simulator for Quantum Computational Chemistry. In Proceedings of IPDPS '24 (IEEE, San Francisco, 2024).",
         url: "https://doi.org/10.1109/IPDPS59261.2024.00109",
       },
     ],
@@ -127,47 +127,47 @@ const researchTopics: ResearchTopic[] = [
     references: [
       {
         citation:
-          "Shang, H.*, Guo, C., Wu, Y., Li, Z., Yang, J.* Solving Schrödinger Equation with a Transformer-based framework. Nat. Commun. 16, 8464 (2025).",
+          "H. Shang*, C. Guo, Y. Wu, Z. Li, J. Yang*. Solving Schrödinger Equation with a Transformer-based framework. Nat. Commun. 16, 8464 (2025).",
         url: "https://www.nature.com/articles/s41467-025-63219-2",
       },
       {
         citation:
-          "Wu, Y., Guo, C.*, Fan, Y., Zhou, P. & Shang, H.* NNQS-Transformer: An efficient and scalable neural network quantum states approach for ab initio quantum chemistry. In Proceedings of SC '23 (ACM, New York, 2023).",
+          "Y. Wu, C. Guo*, Y. Fan, P. Zhou & H. Shang*. NNQS-Transformer: An efficient and scalable neural network quantum states approach for ab initio quantum chemistry. In Proceedings of SC '23 (ACM, New York, 2023).",
         url: "https://dl.acm.org/doi/10.1145/3581784.3607053",
       },
       {
         citation:
-          "Fu, L., Wu, Y., Shang, H.* & Yang, J.* Transformer-Based Neural-Network Quantum State Method for Electronic Band Structures of Real Solids. J. Chem. Theory Comput. 20, 6218 (2024).",
+          "L. Fu, Y. Wu, H. Shang* & J. Yang*. Transformer-Based Neural-Network Quantum State Method for Electronic Band Structures of Real Solids. J. Chem. Theory Comput. 20, 6218 (2024).",
         url: "https://doi.org/10.1021/acs.jctc.4c00257",
       },
       {
         citation:
-          "Ma, H., Shang, H.* & Yang, J.* Quantum embedding method with transformer neural network quantum states for strongly correlated materials. npj Comput. Mater. 10, 220 (2024).",
+          "H. Ma, H. Shang* & J. Yang*. Quantum embedding method with transformer neural network quantum states for strongly correlated materials. npj Comput. Mater. 10, 220 (2024).",
         url: "https://doi.org/10.1038/s41524-024-01231-8",
       },
       {
         citation:
-          "Lai, J., Kan, B., Wu, Y., Fu, Q.*, Shang, H.*, Li, Z., Yang, J.* Accurate Calculation of Interatomic Forces with Neural Networks Based on a Generative Transformer Architecture. J. Chem. Theory Comput. 20, 9478 (2024).",
+          "J. Lai, B. Kan, Y. Wu, Q. Fu*, H. Shang*, Z. Li, J. Yang*. Accurate Calculation of Interatomic Forces with Neural Networks Based on a Generative Transformer Architecture. J. Chem. Theory Comput. 20, 9478 (2024).",
         url: "https://doi.org/10.1021/acs.jctc.4c00756",
       },
       {
         citation:
-          "Kan, B., Tian, Y., Wu, Y., Zhang, Y. & Shang, H.* Bridging the Gap between Transformer-Based Neural Networks and Tensor Networks for Quantum Chemistry. J. Chem. Theory Comput. 21, 3426 (2025).",
+          "B. Kan, Y. Tian, Y. Wu, Y. Zhang & H. Shang*. Bridging the Gap between Transformer-Based Neural Networks and Tensor Networks for Quantum Chemistry. J. Chem. Theory Comput. 21, 3426 (2025).",
         url: "https://doi.org/10.1021/acs.jctc.4c01703",
       },
       {
         citation:
-          "Wu, Y., Cao, W., Zhao, J., Shang, H.* Fast and Scalable Neural Network Quantum States Method for Molecular Potential Energy Surfaces. IEEE Trans. Parallel Distrib. Syst. 36(7), 1431 (2025).",
+          "Y. Wu, W. Cao, J. Zhao, H. Shang*. Fast and Scalable Neural Network Quantum States Method for Molecular Potential Energy Surfaces. IEEE Trans. Parallel Distrib. Syst. 36(7), 1431 (2025).",
         url: "https://doi.org/10.1109/TPDS.2025.3568360",
       },
       {
         citation:
-          "Kan, B., Zhou, Y., Xie, D., Zhou, P., Zhang, Y., Shang, H.* NNQS-SCI: Tackling Trillion-Dimensional Hilbert Space with Adaptive Neural Network Quantum States. In Proceedings of SC '25 (ACM, New York, 2025).",
+          "B. Kan, Y. Zhou, D. Xie, P. Zhou, Y. Zhang, H. Shang*. NNQS-SCI: Tackling Trillion-Dimensional Hilbert Space with Adaptive Neural Network Quantum States. In Proceedings of SC '25 (ACM, New York, 2025).",
         url: "https://doi.org/10.1145/3712285.3759800",
       },
       {
         citation:
-          "Ma, H., Fu, L., Shang, H.*, Yang, J.* QiankunNet-Solid/DMET: a generative neural network quantum state method for solid material simulations (in Chinese). Chin. Sci. Bull. 70, 4015 (2025).",
+          "H. Ma, L. Fu, H. Shang*, J. Yang*. QiankunNet-Solid/DMET: a generative neural network quantum state method for solid material simulations (in Chinese). Chin. Sci. Bull. 70, 4015 (2025).",
         url: "https://doi.org/10.1360/CSB-2025-0315",
       },
     ],
@@ -191,12 +191,12 @@ export default function Research() {
         title={
           lang === "zh"
             ? "研究方向 - 中国科学技术大学 商红慧课题组"
-            : "Research - USTC · Shang Honghui Group"
+            : "Research - USTC · Honghui Shang Group"
         }
         description={
           lang === "zh"
             ? "中国科学技术大学商红慧课题组主要研究方向包括全电子密度泛函微扰理论、面向量子化学的高性能量子计算仿真、乾坤网络神经网络量子态方法等"
-            : "Research directions of the Shang Honghui Group at USTC include all-electron density functional perturbation theory, high-performance quantum computing emulation for quantum chemistry, and the QiankunNet neural network quantum state method."
+            : "Research directions of the Honghui Shang Group at USTC include all-electron density functional perturbation theory, high-performance quantum computing emulation for quantum chemistry, and the QiankunNet neural network quantum state method."
         }
         keywords={
           lang === "zh"

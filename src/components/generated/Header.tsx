@@ -35,7 +35,7 @@ export function Header() {
             <span className="text-base lg:text-lg font-bold text-white leading-tight">
               {lang === "zh"
                 ? "中国科学技术大学 商红慧课题组"
-                : "USTC · Shang Honghui Group"}
+                : "USTC · Honghui Shang Group"}
             </span>
           </Link>
 

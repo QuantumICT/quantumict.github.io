@@ -13,7 +13,16 @@ interface Paper {
   http?: string;
 }
 
+// 2026 entries: https://shanghui.github.io/publications/
 const papers: Paper[] = [
+  { num: 80, title: "Transferable neural network quantum state method for quantum chemistry", authors: "Yangjun Wu#, Jiexuan Zhou#, Yumeng Zhou#, Zhuozhao Xia#, and Honghui Shang*", journal: "Computer Physics Communications, 2026", year: 2026, doi: "https://doi.org/10.1016/j.cpc.2026.110425" },
+  { num: 79, title: "HIP-DFPT: Scalable Optimization of Irregular Workloads in Quantum Perturbation on GPU Clusters", authors: "Meng Wan#, Hao Du#, Jue Wang*, Shunde Li, Honghui Shang*, He Bai, Peng Shi, Yuchen Pang, Ying Liu, Jinrong Jiang, Yangang Wang, and Xuebin Chi", journal: "IEEE Transactions on Parallel and Distributed Systems, 37(9):2021–2036, sep 2026", year: 2026, doi: "https://doi.org/10.1109/TPDS.2026.3705623" },
+  { num: 78, title: "Symmetry-Blocked Matrix Product States as a Neural-Network Quantum-State Ansatz for Quantum Chemistry", authors: "Lizhong Fu, Bowen Kan, Chu Guo*, and Honghui Shang*", journal: "Journal of Chemical Theory and Computation, 22(16):8350–8367, aug 2026", year: 2026, doi: "https://doi.org/10.1021/acs.jctc.6c01040" },
+  { num: 77, title: "A Fully GPU-Accelerated Framework for High-Performance Configuration Interaction Selection with Neural Network Quantum States", authors: "Daran Sun#, Bowen Kan#, Haoquan Long#, Hairui Zhao, Haoxu Li, Yicheng Liu, Pengyu Zhou, Ankang Feng, Wenjing Huang, Yida Gu, Zhenyu Li, Honghui Shang*, Yunquan Zhang, Dingwen Tao, Ninghui Sun, and Guangming Tan*", journal: "In Proceedings of the 35th International Symposium on High-Performance Parallel and Distributed Computing, HPDC ‘26. ACM, jul 2026", year: 2026, doi: "https://doi.org/10.1145/3806645.3807583" },
+  { num: 76, title: "A generative neural network quantum state approach for molecular and material systems（面向分子与材料体系的生成式神经网络量子态方法）", authors: "Honghui Shang* and Jinlong Yang*", journal: "Physics（物理）, 55(5):325–336, may 2026", year: 2026, doi: "https://doi.org/10.7693/wl20260503" },
+  { num: 75, title: "First-Principles Approach to Electron-Vibration Interaction in Molecules from an Atomic Orbital Basis: The Allen–Heine–Cardona Theory and Beyond", authors: "Hao-Yu Qi, Honghui Shang*, Xinguo Ren*, and Hong Jiang*", journal: "The Journal of Physical Chemistry Letters, 2026", year: 2026, doi: "https://doi.org/10.1021/acs.jpclett.6c00235" },
+  { num: 74, title: "Implementation of the hybrid exchange-correlation functionals in the siesta code", authors: "Yann Pouillon*, Bill Clintone Oyomo, James Sifuna, María Camarasa-Gómez, Xinming Qin, Carlos Beltrán, Fernando Gómez-Ortiz, Honghui Shang*, and Javier Junquera*", journal: "Computer Physics Communications, 323:110086, 2026", year: 2026, doi: "https://doi.org/10.1016/j.cpc.2026.110086" },
+  { num: 73, title: "MPS-VMC: A high-performance matrix product state variational Monte Carlo Solver for ab initio quantum chemistry", authors: "Zhiqian Xu, Yangjun Wu, Lizhong Fu, Chu Guo*, and Honghui Shang*", journal: "Computer Physics Communications, 322:110057, 2026", year: 2026, doi: "https://doi.org/10.1016/j.cpc.2026.110057" },
   { num: 72, title: "Accelerating Many-Body Quantum Chemistry via Generative Transformer-Enhanced Configuration Interaction", authors: "Bowen Kan and Honghui Shang*", journal: "Journal of Chemical Theory and Computation, nov 2025", year: 2025, doi: "https://doi.org/10.1021/acs.jctc.5c01429", http: "https://pubs.acs.org/doi/10.1021/acs.jctc.5c01429" },
   { num: 71, title: "Unveiling the Physical Meaning of Transformer Attention in Neural Network Quantum States: A Conditional Mutual Information Perspective", authors: "Tianyu Ruan#, Bowen Kan#, Yixuan Sun#, Honghui Shang*, Shihua Zhang*, and Jinlong Yang*", journal: "Chinese Physics B, 2025", year: 2025, doi: "https://doi.org/10.1088/1674-1056/ae1118", http: "http://iopscience.iop.org/article/10.1088/1674-1056/ae1118" },
   { num: 70, title: "Large-Scale Neural Network Quantum States Calculation for Quantum Chemistry on a New Sunway Supercomputer", authors: "Yangjun Wu#, Wenhao Zhou#, Li Shen, Hong Qian, and Honghui Shang*", journal: "IEEE Transactions on Parallel and Distributed Systems, 36(12):2724–2732, dec 2025", year: 2025, doi: "https://doi.org/10.1109/TPDS.2025.3620251", http: "https://ieeexplore.ieee.org/document/11204692/" },
@@ -45,7 +54,7 @@ const papers: Paper[] = [
   { num: 44, title: "NNQS-Transformer: an Efficient and Scalable Neural Network Quantum States Approach for Ab initio Quantum Chemistry", authors: "Yangjun Wu, Chu Guo*, Yi Fan, Pengyu Zhou and Honghui Shang*", journal: "In Proceedings of SC '23, New York, NY, USA, 2023. ACM", year: 2023, doi: "#", http: "https://doi.org/10.1145/3581784.3607061" },
   { num: 43, title: "MPS-VQE: A variational quantum computational chemistry simulator with matrix product states", authors: "Zhiqian Xu, Yi Fan, Chu Guo* and Honghui Shang*", journal: "Computer Physics Communications, 294:108897, 2024", year: 2023, doi: "https://doi.org/10.1016/j.cpc.2023.108897", http: "https://www.sciencedirect.com/science/article/pii/S0010465523002424" },
   { num: 42, title: "Efficient implementation of analytical gradients for periodic hybrid functional calculations within fitted numerical atomic orbitals from NAO2GTO", authors: "Xinming Qin, Honghui Shang* and Jinlong Yang*", journal: "Frontiers in Chemistry, 11, 2023", year: 2023, doi: "https://doi.org/10.3389/fchem.2023.1232425", http: "https://www.frontiersin.org/articles/10.3389/fchem.2023.1232425/full" },
-  { num: 41, title: "Redesigning OpenKMC for Multi-Component Trillion-Atom Simulations on the New Sunway Supercomputer", authors: "Lei Xu, Honghui Shang*, Chen Xin*, Zhang Yunquan, Wang Lifang, Gao Xingyu and Song Haifeng", journal: "IEEE Transactions on Parallel and Distributed Systems, 34:1997–2010, 2023", year: 2023, doi: "https://doi.org/10.1109/TPDS.2023.3269625", http: "https://ieeexplore.ieee.org/document/10113812" },
+  { num: 41, title: "Redesigning OpenKMC for Multi-Component Trillion-Atom Simulations on the New Sunway Supercomputer", authors: "Lei Xu, Honghui Shang*, Xin Chen*, Yunquan Zhang, Lifang Wang, Xingyu Gao and Haifeng Song", journal: "IEEE Transactions on Parallel and Distributed Systems, 34:1997–2010, 2023", year: 2023, doi: "https://doi.org/10.1109/TPDS.2023.3269625", http: "https://ieeexplore.ieee.org/document/10113812" },
   { num: 40, title: "OpenCL-accelerated first-principles calculations of all-electron quantum perturbations on HPC resources", authors: "Zhikun Wu, Honghui Shang*, Yangjun Wu, Zhongcheng Zhang, Ying Liu*, Yuyang Zhang, Yucheng Ouyang, Huimin Cui and Xiaobing Feng", journal: "Frontiers in Chemistry, 11:1–15, 2023", year: 2023, doi: "https://doi.org/10.3389/fchem.2023.1156891", http: "https://www.frontiersin.org/articles/10.3389/fchem.2023.1156891/full" },
   { num: 39, title: "A real neural network state for quantum chemistry", authors: "Yangjun Wu, Xiansong Xu, Dario Poletti, Yi Fan, Chu Guo* and Honghui Shang*", journal: "Mathematics, 11(6):1417, 2023", year: 2023, doi: "https://doi.org/10.48550/arXiv.2301.03755", http: "https://arxiv.org/abs/2301.03755" },
   { num: 38, title: "Multiscale quantum algorithms for quantum chemistry", authors: "Huan Ma, Jie Liu*, Honghui Shang*, Yi Fan, Zhenyu Li and Jinlong Yang*", journal: "Chemical Science, 14(12):3190–3205, 2023", year: 2023, doi: "https://doi.org/10.1039/D2SC06875C", http: "https://pubs.rsc.org/en/content/articlelanding/2023/sc/d2sc06875c" },
@@ -81,7 +90,7 @@ const papers: Paper[] = [
   { num: 8, title: "Lattice dynamics calculations based on density-functional perturbation theory in real space", authors: "Honghui Shang*, Christian Carbogno, Patrick Rinke and Matthias Scheffler", journal: "Computer Physics Communications, 215:26–46, jun 2017", year: 2017, doi: "https://doi.org/10.1016/j.cpc.2017.02.001", http: "http://www.sciencedirect.com/science/article/pii/S0010465517300437" },
   { num: 7, title: "Li/MgO Catalysts Doped with Aliovalent Ions. Part II: Local Topology Unraveled by EPR/NMR and DFT Modeling", authors: "Ulla Simon#, Sebastián Alarcón Villaseca, Honghui Shang, Sergey V Levchenko, Sebastian Arndt, Jan D Epping, Oliver Görke, Matthias Scheffler, Reinhard Schomäcker, Johan van Tol, Andrew Ozarowski, and Klaus-Peter Dinse*", journal: "ChemCatChem, 9(18):3597–3610, sep 2017", year: 2017, doi: "https://doi.org/10.1002/cctc.201700610", http: "https://onlinelibrary.wiley.com/doi/abs/10.1002/cctc.201700610" },
   { num: 6, title: "Evidence for photogenerated intermediate hole polarons in ZnO", authors: "Hikmet Sezen, Honghui Shang, Fabian Bebensee, Chengwu Yang, Maria Buchholz, Alexei Nefedov, Stefan Heissler, Christian Carbogno, Matthias Scheffler, Patrick Rinke, and Christof Wöll*", journal: "Nature Communications, 6(1):6901, dec 2015", year: 2015, doi: "https://doi.org/10.1038/ncomms7901", http: "http://www.nature.com/articles/ncomms7901" },
-  { num: 5, title: "Ultrafast multiphoton pump-probe photoemission excitation pathways in rutile TiO₂(110)", authors: "Argondizzo Adam, Xuefeng Cui, Cong Wang, Huijuan Sun, Honghui Shang, Jin Zhao, and Petek Hrvoje*", journal: "Physical Review B, 91(15):155429 apr 2015", year: 2015, doi: "https://doi.org/10.1103/PhysRevB.91.155429", http: "http://link.aps.org/doi/10.1103/PhysRevB.91.155429" },
+  { num: 5, title: "Ultrafast multiphoton pump-probe photoemission excitation pathways in rutile TiO₂(110)", authors: "Adam Argondizzo, Xuefeng Cui, Cong Wang, Huijuan Sun, Honghui Shang, Jin Zhao, and Hrvoje Petek*", journal: "Physical Review B, 91(15):155429 apr 2015", year: 2015, doi: "https://doi.org/10.1103/PhysRevB.91.155429", http: "http://link.aps.org/doi/10.1103/PhysRevB.91.155429" },
   { num: 4, title: "HONPAS: A linear scaling open-source solution for large system simulations", authors: "Xinming Qin, Honghui Shang, Hongjun Xiang, Zhenyu Li, and Jinlong Yang*", journal: "International Journal of Quantum Chemistry, 115(10):647–655, may 2015", year: 2015, doi: "https://doi.org/10.1002/qua.24837", http: "http://doi.wiley.com/10.1002/qua.24837" },
   { num: 3, title: "Implementation of screened hybrid density functional for periodic systems with numerical atomic orbitals: Basis function fitting and integral screening", authors: "Honghui Shang, Zhenyu Li, and Jinlong Yang*", journal: "The Journal of Chemical Physics, 135(3):034110, jul 2011", year: 2011, doi: "https://doi.org/10.1063/1.3610379", http: "http://aip.scitation.org/doi/10.1063/1.3610379" },
   { num: 2, title: "Linear scaling electronic structure calculations with numerical atomic basis set", authors: "Honghui Shang, Hongjun Xiang, Zhenyu Li, and Jinlong Yang*", journal: "International Reviews in Physical Chemistry, 29(4):665–691, oct 2010", year: 2010, doi: "https://doi.org/10.1080/0144235X.2010.520454", http: "http://www.tandfonline.com/doi/abs/10.1080/0144235X.2010.520454" },
@@ -108,12 +117,12 @@ export default function Papers() {
         title={
           lang === "zh"
             ? "学术论文 - 中国科学技术大学 商红慧课题组"
-            : "Publications - USTC · Shang Honghui Group"
+            : "Publications - USTC · Honghui Shang Group"
         }
         description={
           lang === "zh"
             ? "中国科学技术大学商红慧课题组发表的学术论文列表"
-            : "Publications of the Shang Honghui Group at USTC"
+            : "Publications of the Honghui Shang Group at USTC"
         }
         keywords={
           lang === "zh"
@@ -181,9 +190,9 @@ export default function Papers() {
                           <p className="text-gray-500 text-xs italic">
                             {paper.journal}
                           </p>
-                        {(paper.doi !== "#" || paper.http !== "#") && (
+                        {((paper.doi && paper.doi !== "#") || (paper.http && paper.http !== "#")) && (
                           <div className="flex items-center gap-3 mt-1">
-                            {paper.doi !== "#" && (
+                            {paper.doi && paper.doi !== "#" && (
                               <a
                                 href={paper.doi}
                                 target="_blank"
@@ -193,7 +202,7 @@ export default function Papers() {
                                 DOI <FaExternalLinkAlt className="ml-1" size={10} />
                               </a>
                             )}
-                            {paper.http !== "#" && (
+                            {paper.http && paper.http !== "#" && (
                               <a
                                 href={paper.http}
                                 target="_blank"
